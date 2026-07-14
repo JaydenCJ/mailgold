@@ -1,0 +1,94 @@
+From: Example App <no-reply@example.test>
+To: Dana Developer <dana@example.test>
+Subject: =?UTF-8?B?V2VsY29tZSB0byBFeGFtcGxlIOKAlCBjb25maXJtIHlvdXIgZW1haWw=?=
+Date: Thu, 09 Jul 2026 09:00:00 +0000
+Message-ID: <20260709090000.42@mail.example.test>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=_mailgold_example_1"
+
+This is a multi-part message in MIME format.
+--=_mailgold_example_1
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Welcome to Example!
+
+Hi Dana,
+
+Thanks for signing up =E2=80=94 please confirm your email address by
+opening the link below within 24 hours:
+
+https://app.example.test/confirm?uid=3D8842&token=3DAAAAAAAAAAAAAAAA
+
+If you did not create this account, you can safely ignore this
+message.
+
+--
+The Example Team
+https://example.test/?utm_source=3Demail&utm_campaign=3Dwelcome
+--=_mailgold_example_1
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=3D"utf-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+    <title>Welcome to Example</title>
+  </head>
+  <body style=3D"margin:0; padding:0; background-color:#f4f4f7;">
+    <!--[if mso]>
+    <table role=3D"presentation" width=3D"600" align=3D"center"><tr><td>
+    <![endif]-->
+    <table role=3D"presentation" width=3D"600" align=3D"center" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"background-color:#ffffff;">
+      <tr>
+        <td style=3D"padding:24px; text-align:center;">
+          <img src=3D"https://cdn.example.test/logo.png?v=3D3" width=3D"120=
+" height=3D"40" alt=3D"Example" style=3D"border:0;">
+        </td>
+      </tr>
+      <tr>
+        <td style=3D"padding:0 24px 8px 24px; font-family:Arial, sans-serif=
+; font-size:16px; color:#333333;">Hi Dana,</td>
+      </tr>
+      <tr>
+        <td style=3D"padding:0 24px 16px 24px; font-family:Arial, sans-seri=
+f; font-size:16px; color:#333333;">Thanks for signing up &mdash; please con=
+firm your email address within 24 hours.</td>
+      </tr>
+      <tr>
+        <td style=3D"padding:0 24px 24px 24px;" align=3D"center">
+          <table role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0">
+            <tr>
+              <td bgcolor=3D"#2d6cdf" style=3D"padding:12px 32px;">
+                <a href=3D"https://app.example.test/confirm?uid=3D8842&amp;=
+token=3DAAAAAAAAAAAAAAAA" style=3D"color:#ffffff; font-family:Arial, sans-s=
+erif; font-size:16px; text-decoration:none;">Confirm email</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style=3D"padding:0 24px 24px 24px; font-family:Arial, sans-seri=
+f; font-size:16px; color:#333333;">If you did not create this account, you =
+can safely ignore this message.</td>
+      </tr>
+      <tr>
+        <td style=3D"padding:16px 24px; font-family:Arial, sans-serif; font=
+-size:12px; color:#8a8a94;">
+          The Example Team &middot; <a href=3D"https://example.test/unsubsc=
+ribe?uid=3D8842&amp;sig=3DAAAAAAAAAA" style=3D"color:#8a8a94;">Unsubscribe<=
+/a>
+        </td>
+      </tr>
+    </table>
+    <!--[if mso]>
+    </td></tr></table>
+    <![endif]-->
+  </body>
+</html>
+--=_mailgold_example_1--

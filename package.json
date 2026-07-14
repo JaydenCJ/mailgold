@@ -1,0 +1,54 @@
+{
+  "name": "mailgold",
+  "version": "0.1.0",
+  "description": "Snapshot testing for transactional email: HTML normalization, client-quirk lint, text-part diff.",
+  "author": "JaydenCJ",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "mailgold": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"tests/*.test.mjs\"",
+    "smoke": "bash scripts/smoke.sh"
+  },
+  "keywords": [
+    "email",
+    "snapshot-testing",
+    "transactional-email",
+    "outlook",
+    "html-email",
+    "lint",
+    "mime",
+    "testing"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenCJ/mailgold.git"
+  },
+  "homepage": "https://github.com/JaydenCJ/mailgold#readme",
+  "bugs": {
+    "url": "https://github.com/JaydenCJ/mailgold/issues"
+  }
+}
